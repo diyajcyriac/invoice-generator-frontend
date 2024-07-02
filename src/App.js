@@ -31,7 +31,7 @@ const App = () => {
     formData.append('additionalFreight', additionalFreight);
 
     try {
-      const response = await axios.post('https://invoice-generator-backend-uock.onrender.com/upload', formData, {
+      const response = await axios.post('https://invoice-generator-backend-uock.onrender.com/uploads', formData, {
         responseType: 'json'
       });
 
