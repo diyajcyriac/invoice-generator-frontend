@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "https://invoice-generator-backend-1-j6ve.onrender.com",
   "eslintConfig": {
     "extends": [
       "react-app",
